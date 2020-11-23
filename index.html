@@ -374,7 +374,6 @@
             <button class="btn-subscription"> <span class="btn-sub-span">Подписаться</span>
             </button>
             <img class="svg-btn" src="./images/modal/subscribe.svg" width="24px" height="24px" alt="">
-
           </div>
         </form>
       </div>
@@ -417,14 +416,15 @@
         <div><textarea name="comment" class="form_comment" placeholder="Введите текст"></textarea>
         </div>
 
+        <label class="acceptation-form">
+          <input class="checkbox" type="checkbox" name="accept" />
+          <span class="icon"></span>
+          <span class="label-accept">Соглашаюсь с рассылкой и принимаю
+            <span class="accept-span"> Условия договора</span>
+          </span>
+        </label>
 
-        <div class="acceptation-form">
-          <input class="checkbox" type="checkbox" name="accept">
-          <label for="accept" class="label-accept">Соглашаюсь с рассылкой и принимаю
-            <span class="accept-span"> Условия договора</span></label>
-        </div>
         <button class=" btn-modal" type="submit">Отправить</button>
-
       </form>
 
       <button class="close-modal" data-modal-close>
