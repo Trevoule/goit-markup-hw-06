@@ -663,7 +663,7 @@ img {
 
   height: 581px;
   width: 528px;
-  padding: 15px;
+  /* padding: 15px; */
 
   background-color: #fff;
 
@@ -772,14 +772,19 @@ img {
 }
 
 .modal-info {
-  padding: 63px 24px;
-  font-size: 18px;
-  line-height: 1.55;
-  color: var(--primary-text-gray);
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.09;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-black);
 }
 
 .request-form {
-  padding: 40px;
+  padding-top: 40px;
+  padding-left: 41px;
+  padding-right: 39px;
+  padding-bottom: 40px;
 }
 
 .form_comment {
@@ -865,10 +870,15 @@ img {
   /* background-origin: border-box; */
 }
 
+.btn-div {
+  display: flex;
+  justify-content: center;
+}
+
 .btn-modal {
   margin-top: 30px;
-  margin-left: 98px;
-  margin-right: 98px;
+  /* margin-left: 0 auto; */
+  /* margin-right: 98px; */
   justify-content: center;
   display: inline-block;
   border-radius: 4px;
