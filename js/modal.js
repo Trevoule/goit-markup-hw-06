@@ -11,9 +11,4 @@
   function toggleModal() {
     refs.modal.classList.toggle('is-hidden');
   }
-  refs.modal.classList.toggle('is-hidden')
-
 })();
-
-
-
