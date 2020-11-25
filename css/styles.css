@@ -732,7 +732,7 @@ img {
   color: var(--primary-text-gray);
 }
 
-.input-form:focus-within,
+.input-form:focus,
 .input-form:hover {
   border: 1px solid var(--text-accent);
   cursor: pointer;
