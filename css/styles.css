@@ -733,7 +733,10 @@ img {
 }
 
 .input-form:focus,
-.input-form:hover {
+.input-form:hover,
+.forv-svg:hover,
+,
+form-svg:focus {
   border: 1px solid var(--text-accent);
   cursor: pointer;
 }
