@@ -735,7 +735,9 @@ img {
 }
 
 .input-form:focus,
-.input-form:hover {
+.input-form:hover,
+.form_comment:hover,
+.form_comment:focus {
   border: 1px solid var(--text-accent);
   cursor: pointer;
 }
